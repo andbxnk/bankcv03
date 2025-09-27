@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: #000c58;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 101px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    color: #C7C7C7;
+    font-weight: 300;
+}
+
+.para {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C7C7C7;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: #060135;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .links a{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    transition: 0.5s ease all;
+}
+
+.navbar .links a:hover {
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.content {
+    margin: auto;
+}
+
+.content .myinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.content .myinfo .info {
+    max-width: 500px;
+}
+
+.content .myinfo .info p {
+    font-family: "Prompt";
+    color: #C7C7C7;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.buttons {
+    font-family: "Prompt", sans-serif;
+    background-color: #7a99e9;
+    color: #0A0A0A;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s ease all;
+}
+
+.buttons:hover {
+    background-color: #4470e0;
+    color: #fff;
+}
+
+.buttons:hover span {
+    color: #fff;
+}
+
+.buttons span {
+    font-family: "Prompt", sans-serif;
+    color: #0A0A0A;
+    font-size: 20px;
+}
+
+.icon {
+    background-color: #222222;
+    padding: 15px;
+    color: #7a99e9;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+.icon:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 98%;
+    border: none;
+    background-color: #484848;
+    height: 1px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.about-me .text {
+    max-width: 500px;
+}
+
+.about-me .text h2 {
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.f-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.caps {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+.caps .text {
+    max-width: 500px;
+}
+
+.caps .text p {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    color: #C7C7C7;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.caps .langs {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.caps .lang {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #484848;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: 0.5s ease all;
+}
+
+.caps .lang:hover {
+    background-color: #484848;
+    font-weight: 900;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: 150px 0;
+}
+
+.exp .text {
+    max-width: 500px;
+}
+
+.text .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text .head h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 3;
+}
+
+.exp .head p {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 3;
+}
+
+.exp .text .para {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: 150px 0;
+}
+
+.contact .forms {
+    max-width: 500px;
+}
+
+.contact .contact-info p {
+    line-height: 2;
+}
+
+.contact .contact-info a {
+    transition: 0.5s ease all;
+}
+
+.contact .contact-info a:hover {
+    color: #3e6bdb;
+}
+
+.contact .social {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.iconn {
+    color: #7A99E9;
+    font-size: 30px;
+    transition: 0.5s ease all;
+}
+
+.iconn:hover {
+    color: #fff;
+}
+
+.contact-form {
+    width: 500px;
+}
+
+.contact-form label {
+    font-family: "Manrope", sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #C7C7C7;
+}
+
+.contact-form input, .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #060135;
+    color: #fff;
+    font-size: 16;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contact-form button {
+    font-family: "Manrope", sans-serif;
+    background-color: #7a99e9;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #0A0A0A;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.contact-form button:hover {
+    background-color: #3e6bdb;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.footer h3 {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #C7C7C7;
+}
